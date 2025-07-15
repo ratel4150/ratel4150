@@ -10,81 +10,118 @@
 Desarrollador Fullstack especializado en crear soluciones web modernas y robustas usando React, TypeScript y NestJS. Arquitecto de plataformas SaaS multicanal, con integración de flujos automatizados, microservicios, y despliegue cloud-native.
 
 ---
+# 🧰 Tech Stack Completo
 
-<div class="container my-5">
-  <div class="card bg-dark text-light border-info shadow-lg rounded-4">
-    <div class="card-body p-4">
-      <h2 class="text-info mb-4">🧰 Tech Stack Completo</h2>
+---
 
-      <h4 class="text-success">🔧 Frontend & UI Frameworks</h4>
-      <ul>
-        <li><strong>React 18</strong> · Base del SPA con hooks, context y suspense avanzado.</li>
-        <li><strong>Next.js 14</strong> · SSR, ISR, RSC y SEO altamente optimizado.</li>
-        <li><strong>TypeScript</strong> · Tipado estricto y seguridad en todo el stack.</li>
-        <li><strong>Framer Motion</strong> · Animaciones fluidas, microinteracciones y transiciones de página.</li>
-        <li><strong>Material UI (MUI)</strong> · Sistema de diseño accesible con personalización avanzada.</li>
-        <li><strong>Tailwind CSS</strong> · Utilidades atómicas para estilos rápidos y responsive.</li>
-      </ul>
+### 🔧 Frontend & UI Frameworks  
+![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)  
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)  
+![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)  
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Open%20Source-blueviolet?style=for-the-badge)  
+![Material UI](https://img.shields.io/badge/Material%20UI-React-blue?style=for-the-badge)  
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Open%20Source-blue?style=for-the-badge)
 
-      <h4 class="text-warning">⚙️ Backend & Orquestación</h4>
-      <ul>
-        <li><strong>NestJS</strong> · Modularidad, escalabilidad y compatibilidad con GraphQL, REST, WebSockets y gRPC.</li>
-        <li><strong>GraphQL</strong> · API unificada, resolvers desacoplados y tipos compartidos.</li>
-        <li><strong>Apollo Server</strong> · Gateway federado con caching, tracing y batching de resolvers.</li>
-        <li><strong>gRPC</strong> · Comunicación binaria ultra eficiente entre microservicios.</li>
-        <li><strong>Temporal.io</strong> · Orquestación de workflows distribuidos, long-running, fault-tolerant.</li>
-      </ul>
+- **React 18** · Base del SPA con hooks, context y suspense avanzado.  
+- **Next.js 14** · SSR, ISR, RSC y SEO altamente optimizado.  
+- **TypeScript** · Tipado estricto y seguridad en todo el stack.  
+- **Framer Motion** · Animaciones fluidas, microinteracciones y transiciones de página.  
+- **Material UI (MUI)** · Sistema de diseño accesible con personalización avanzada.  
+- **Tailwind CSS** · Utilidades atómicas para estilos rápidos y responsive.  
 
-      <h4 class="text-primary">📡 Mensajería & Event Streaming</h4>
-      <ul>
-        <li><strong>Apache Kafka</strong> · Streaming de eventos, pub/sub y procesamiento en tiempo real.</li>
-        <li><strong>Redis Streams</strong> · Lightweight event queues para tareas temporales y fallbacks.</li>
-        <li><strong>WebSockets (GraphQL WS)</strong> · Conexiones bidireccionales en tiempo real vía Subscriptions.</li>
-      </ul>
+---
 
-      <h4 class="text-info">🗄️ Bases de Datos & Persistencia</h4>
-      <ul>
-        <li><strong>PostgreSQL</strong> · SQL robusto y relacional con soporte para JSONB, CTEs, índices GIN.</li>
-        <li><strong>Redis</strong> · Caching distribuido, locks y sesiones en memoria.</li>
-        <li><strong>MongoDB</strong> · Persistencia flexible para documentos y datos no relacionales.</li>
-        <li><strong>Prisma ORM</strong> · Acceso a datos tipado, migraciones seguras, validación a nivel modelo.</li>
-      </ul>
+### ⚙️ Backend & Orquestación  
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)  
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)  
+![Apollo](https://img.shields.io/badge/Apollo-311C87?style=for-the-badge&logo=apollo-graphql)  
+![gRPC](https://img.shields.io/badge/gRPC-339933?style=for-the-badge&logo=grpc&logoColor=white)  
+![Temporal](https://img.shields.io/badge/Temporal-000000?style=for-the-badge&logo=temporal)
 
-      <h4 class="text-warning">🔐 Autenticación & Seguridad</h4>
-      <ul>
-        <li><strong>Keycloak</strong> · Proveedor de identidad con OAuth2, OpenID Connect, SSO y multi-tenant.</li>
-        <li><strong>OAuth2 / OIDC</strong> · Delegación de autenticación y autorización con scopes granulares.</li>
-        <li><strong>JWT (RS256)</strong> · Tokens firmados con RSA, expiración y refresh seguro.</li>
-        <li><strong>Vault by HashiCorp</strong> · Gestión de secretos, control de acceso y rotación automática.</li>
-      </ul>
+- **NestJS** · Modularidad, escalabilidad y compatibilidad con GraphQL, REST, WebSockets y gRPC.  
+- **GraphQL** · API unificada, resolvers desacoplados y tipos compartidos.  
+- **Apollo Server** · Gateway federado con caching, tracing y batching de resolvers.  
+- **gRPC** · Comunicación binaria ultra eficiente entre microservicios.  
+- **Temporal.io** · Orquestación de workflows distribuidos, long-running, fault-tolerant.
 
-      <h4 class="text-success">📦 DevOps, CI/CD & Infraestructura</h4>
-      <ul>
-        <li><strong>Docker</strong> · Contenedores reproducibles para cada servicio.</li>
-        <li><strong>Kubernetes</strong> · Orquestación con autoscaling, HPA, rollouts y tolerancia a fallos.</li>
-        <li><strong>Helm</strong> · Plantillas para despliegue consistente de microservicios.</li>
-        <li><strong>Argo CD</strong> · GitOps con sincronización declarativa del clúster.</li>
-        <li><strong>Terraform</strong> · Infraestructura como código en cloud providers multi región.</li>
-        <li><strong>Railway</strong> · Entorno PaaS para prototipado y staging automático.</li>
-      </ul>
+---
 
-      <h4 class="text-primary">📊 Observabilidad & Trazabilidad</h4>
-      <ul>
-        <li><strong>OpenTelemetry (OTel)</strong> · Instrumentación de métricas, logs y trazas distribuidas.</li>
-        <li><strong>Jaeger / Grafana Tempo</strong> · Visualización de trazas y latencias en pipelines.</li>
-        <li><strong>Prometheus + Grafana</strong> · Métricas, alertas y dashboards personalizados.</li>
-      </ul>
+### 📡 Mensajería & Event Streaming  
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)  
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)  
+![WebSockets](https://img.shields.io/badge/WebSockets-008000?style=for-the-badge)
 
-      <h4 class="text-warning">🧪 Testing & Calidad</h4>
-      <ul>
-        <li><strong>Jest</strong> · Testing unitario, cobertura de código, snapshot y mocks.</li>
-        <li><strong>Testing Library</strong> · Pruebas de integración centradas en la experiencia del usuario.</li>
-        <li><strong>Supertest</strong> · Endpoints REST & GraphQL testeados desde el servidor.</li>
-        <li><strong>Mock Service Worker (MSW)</strong> · Mocking de API realista y controlado para frontend.</li>
-      </ul>
-    </div>
-  </div>
-</div>
+- **Apache Kafka** · Streaming de eventos, pub/sub y procesamiento en tiempo real.  
+- **Redis Streams** · Lightweight event queues para tareas temporales y fallbacks.  
+- **WebSockets (GraphQL WS)** · Conexiones bidireccionales en tiempo real vía Subscriptions.
+
+---
+
+### 🗄️ Bases de Datos & Persistencia  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)  
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  
+![Prisma](https://img.shields.io/badge/Prisma-0C344B?style=for-the-badge&logo=prisma&logoColor=white)
+
+- **PostgreSQL** · SQL robusto y relacional con soporte para JSONB, CTEs, índices GIN.  
+- **Redis** · Caching distribuido, locks y sesiones en memoria.  
+- **MongoDB** · Persistencia flexible para documentos y datos no relacionales.  
+- **Prisma ORM** · Acceso a datos tipado, migraciones seguras, validación a nivel modelo.
+
+---
+
+### 🔐 Autenticación & Seguridad  
+![Keycloak](https://img.shields.io/badge/Keycloak-BC172B?style=for-the-badge&logo=keycloak&logoColor=white)  
+![OAuth](https://img.shields.io/badge/OAuth2-0A66C2?style=for-the-badge&logo=oauth&logoColor=white)  
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge)
+
+- **Keycloak** · Proveedor de identidad con OAuth2, OpenID Connect, SSO y multi-tenant.  
+- **OAuth2 / OIDC** · Delegación de autenticación y autorización con scopes granulares.  
+- **JWT (RS256)** · Tokens firmados con RSA, expiración y refresh seguro.  
+- **Vault by HashiCorp** · Gestión de secretos, control de acceso y rotación automática.
+
+---
+
+### 📦 DevOps, CI/CD & Infraestructura  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)  
+![Helm](https://img.shields.io/badge/Helm-0F71CB?style=for-the-badge&logo=helm&logoColor=white)  
+![Argo CD](https://img.shields.io/badge/Argo_CD-E23E38?style=for-the-badge&logo=argo-cd&logoColor=white)  
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)  
+![Railway](https://img.shields.io/badge/Railway-000000?style=for-the-badge)
+
+- **Docker** · Contenedores reproducibles para cada servicio.  
+- **Kubernetes** · Orquestación con autoscaling, HPA, rollouts y tolerancia a fallos.  
+- **Helm** · Plantillas para despliegue consistente de microservicios.  
+- **Argo CD** · GitOps con sincronización declarativa del clúster.  
+- **Terraform** · Infraestructura como código en cloud providers multi región.  
+- **Railway** · Entorno PaaS para prototipado y staging automático.
+
+---
+
+### 📊 Observabilidad & Trazabilidad  
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-772953?style=for-the-badge)  
+![Jaeger](https://img.shields.io/badge/Jaeger-FE3C3C?style=for-the-badge)  
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)  
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+- **OpenTelemetry (OTel)** · Instrumentación de métricas, logs y trazas distribuidas.  
+- **Jaeger / Grafana Tempo** · Visualización de trazas y latencias en pipelines.  
+- **Prometheus + Grafana** · Métricas, alertas y dashboards personalizados.
+
+---
+
+### 🧪 Testing & Calidad  
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)  
+![Testing Library](https://img.shields.io/badge/Testing%20Library-FF4154?style=for-the-badge)  
+![Supertest](https://img.shields.io/badge/Supertest-00BCD4?style=for-the-badge)  
+![MSW](https://img.shields.io/badge/MSW-3B82F6?style=for-the-badge)
+
+- **Jest** · Testing unitario, cobertura de código, snapshot y mocks.  
+- **Testing Library** · Pruebas de integración centradas en la experiencia del usuario.  
+- **Supertest** · Endpoints REST & GraphQL testeados desde el servidor.  
+- **Mock Service Worker (MSW)** · Mocking de API realista y controlado para frontend.
+
+
 
 
 ---
